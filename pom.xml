@@ -11,6 +11,9 @@
     <modules>
         <module>record_test</module>
         <module>java_new_features</module>
+        <module>lesson04_single</module>
+        <module>lesson05_crm</module>
+        <module>lesson06_package</module>
     </modules>
 
     <properties>
