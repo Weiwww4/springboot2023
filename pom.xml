@@ -14,6 +14,7 @@
         <module>lesson04_single</module>
         <module>lesson05_crm</module>
         <module>lesson06_package</module>
+        <module>lesson07_config</module>
     </modules>
 
     <properties>

@@ -47,6 +47,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>lesson06_package</finalName>
 		<plugins>
 			<!--spring boot 插件-->
 			<plugin>
