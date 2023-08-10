@@ -1,0 +1,13 @@
+#yml默认配置文件
+#yml配置文件的优先级要低于properties
+
+app:
+  name: lesson07-2
+  owner: chisanayume
+  post: 8112
+
+#导入其他的配置，多个文件使用"，"作为分割符
+#使用引号把配置扩起来(linux转义问题)
+spring:
+  config:
+    import: "conf/db.yml,conf/redis.yml,user.yml"
