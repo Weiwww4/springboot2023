@@ -1,17 +1,16 @@
-package com.example.lession07_config.bean;
+package com.example.lesson07_config.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-
 @SpringBootTest
-class ReadConfigTest {
+public class UserTest {
     @Autowired
-    ReadConfig readConfig;
+    private User user;
 
     @Test
-    void printTest() {
-        readConfig.print();
+    public void test01(){
+        System.out.println(user);
     }
 }

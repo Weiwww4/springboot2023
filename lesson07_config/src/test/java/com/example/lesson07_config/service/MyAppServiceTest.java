@@ -1,19 +1,18 @@
-package com.example.lession07_config.service;
+package com.example.lesson07_config.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-
-
 @SpringBootTest
-class MySqlServiceTest {
+class MyAppServiceTest {
+
     @Autowired
-    MySqlService mySqlService;
+    MyAppService myAppService;
 
     @Test
     public void test01(){
-        System.out.println(mySqlService);
+        System.out.println(myAppService.getMemo());
     }
 
 }

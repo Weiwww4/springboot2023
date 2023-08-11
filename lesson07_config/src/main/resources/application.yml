@@ -3,11 +3,28 @@
 
 app:
   name: lesson07-2
-  owner: chisanayume
+  owner: chiisanayume
   post: 8112
 
-#导入其他的配置，多个文件使用"，"作为分割符
-#使用引号把配置扩起来(linux转义问题)
+myapp3:
+    name: lesson07-2-myappa
+    owner: chiisanayume
+    post: 5654
+    user:
+      username: admin
+      password: password
+
+myapp4:
+  no: 005
+  config:
+    appname: undefined
+    appconfig: undefined
 spring:
   config:
+    #导入其他的配置，多个文件使用"，"作为分割符
+    #使用引号把配置扩起来(linux转义问题)
     import: "conf/db.yml,conf/redis.yml,user.yml"
+
+  profiles:
+    #激活某个配置文件
+    active: dev

@@ -1,16 +1,18 @@
-package com.example.lession07_config.service;
+package com.example.lesson07_config.bean2;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-public class MyDataSourceTest {
-    @Autowired
-    MyDataSource myDataSource;
+import static org.junit.jupiter.api.Assertions.*;
 
+@SpringBootTest
+class User2Test {
+    @Autowired
+    User2 user2;
     @Test
     public void test01(){
-
-        System.out.println(myDataSource);
+        System.out.println(user2);
     }
+
 }

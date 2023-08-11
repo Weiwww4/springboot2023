@@ -1,4 +1,4 @@
-package com.example.lession07_config.service;
+package com.example.lesson07_config.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

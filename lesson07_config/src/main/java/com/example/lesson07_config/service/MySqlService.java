@@ -1,7 +1,6 @@
-package com.example.lession07_config.service;
+package com.example.lesson07_config.service;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,6 +1,6 @@
-package com.example.lession07_config;
+package com.example.lesson07_config;
 
-import com.example.lession07_config.service.AppService;
+import com.example.lesson07_config.service.AppService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

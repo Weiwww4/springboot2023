@@ -1,4 +1,4 @@
-package com.example.lession07_config.bean;
+package com.example.lesson07_config.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
