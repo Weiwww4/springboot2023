@@ -1,0 +1,21 @@
+# 配置集合
+# `数组` 和 `list集合` 一样，使用 `-` 一个成员进行配置
+names:
+  - KLee
+  - Nahida
+servers:
+  - title: 华北服务器
+    ip: 202.12.39.1
+  - title: 西南服务器
+    ip: 106.90.23.229
+
+# `Map集合` 赋值
+users:
+  KLee:
+    name: "可莉"
+    sex: "女"
+    age: "12"
+  Nahida:
+    name: "纳西妲"
+    sex: "女"
+    age: "500"
