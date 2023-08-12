@@ -19,6 +19,9 @@ myapp4:
   config:
     appname: undefined
     appconfig: undefined
+security:
+  username: wasd
+  password: WASD
 spring:
   config:
     #导入其他的配置，多个文件使用"，"作为分割符
